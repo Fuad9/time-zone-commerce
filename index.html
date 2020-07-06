@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Zone</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Making Navbar -->
+    <div class="container">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-primary navbar">
+            <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="d-flex justify-content-center collapse navbar-collapse" id="navbarNavDropdown">
+
+                <div>
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Latest
+                                </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="#">Product List</a>
+                                <a class="dropdown-item" href="#">Product Details</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Blog
+                                </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="#">Blog</a>
+                                <a class="dropdown-item" href="#">Blog Details</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Pages
+                                </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="#">Login</a>
+                                <a class="dropdown-item" href="#">Cart</a>
+                                <a class="dropdown-item" href="#">Element</a>
+                                <a class="dropdown-item" href="#">Confirmation</a>
+                                <a class="dropdown-item" href="#">Product Checkout</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <form class="d-flex justify-content-end form-inline my-2 my-lg-0">
+                <div>
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </div>
+            </form>
+        </nav>
+    </div>
+
+    <!-- Making Carousel -->
+    <div id="carouselExampleSlidesOnly" class="carousel slide gray-bg" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="row align-items-center carousel-first">
+                    <div class="col-md-7" data-interval="500">
+                        <h1>Select Your New Perfect Style</h1>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique, quia.</p>
+                        <button class="shop-now-button">Shop Now</button>
+                    </div>
+                    <div class="col-md-5" data-interval="500">
+                        <img src="images/watch.png" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Making Card Decks -->
+    <div class="container">
+        <h1>New Arrivals</h1>
+        <div class="card-deck">
+            <div class="card">
+                <img src="images/new-product/new_product1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Thermo Ball Etip Gloves</h5>
+                    <h5>$45,743</h5>
+                </div>
+                <div class="card-footer">
+                    <button class="shop-now-button">Shop Now</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/new-product/new_product2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Thermo Ball Etip Gloves</h5>
+                    <h5>$45,743</h5>
+                </div>
+                <div class="card-footer">
+                    <button class="shop-now-button">Shop Now</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/new-product/new_product3.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Thermo Ball Etip Gloves</h5>
+                    <h5>$45,743</h5>
+                </div>
+                <div class="card-footer">
+                    <button class="shop-now-button">Shop Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Making another Card Decks -->
+    <div class="container card-decks">
+        <h1>Popular Items</h1>
+        <div class="card-deck">
+            <div class="row">
+                <div class="card col-md-4">
+                    <img src="images/popular-watch/popular1.png" class="card-img-top cart-img" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Thermo Ball Etip Gloves</h5>
+                        <h5>$45,743</h5>
+                        <button class="add-to-cart-button">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="card col-md-4">
+                    <img src="images/popular-watch/popular2.png" class="card-img-top cart-img" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Thermo Ball Etip Gloves</h5>
+                        <h5>$45,743</h5>
+                        <button class="add-to-cart-button">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="card col-md-4">
+                    <img src="images/popular-watch/popular3.png" class="card-img-top cart-img" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Thermo Ball Etip Gloves</h5>
+                        <h5>$45,743</h5>
+                        <button class="add-to-cart-button">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="card col-md-4">
+                    <img src="images/popular-watch/popular4.png" class="card-img-top cart-img" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Thermo Ball Etip Gloves</h5>
+                        <h5>$45,743</h5>
+                        <button class="add-to-cart-button">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="card col-md-4">
+                    <img src="images/popular-watch/popular5.png" class="card-img-top cart-img" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Thermo Ball Etip Gloves</h5>
+                        <h5>$45,743</h5>
+                        <button class="add-to-cart-button">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="card col-md-4">
+                    <img src="images/popular-watch/popular6.png" class="card-img-top cart-img" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Thermo Ball Etip Gloves</h5>
+                        <h5>$45,743</h5>
+                        <button class="add-to-cart-button">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Another Section -->
+    <div class="container d-flex justify-content-center align-items-center">
+        <div>
+            <button class="more-products">View More Products</button>
+        </div>
+    </div>
+
+    <!-- Another Card Decks -->
+    <div class="container">
+        <div class="row d-flex align-items-center">
+            <div class="col-md-6">
+                <h1>Watch of Choice</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores quia, aliquam esse voluptatem dicta provident nulla? Officia dolor recusandae quibusdam!</p>
+                <button class="more-products">Show Watches</button>
+            </div>
+            <div class="col-md-6">
+                <img src="images/choice-watch/choce_watch1.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row d-flex align-items-center">
+            <div class="col-md-6">
+                <img src="images/choice-watch/choce_watch2.png" alt="">
+            </div>
+            <div class="col-md-6">
+                <h1>Watch of Choice</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores quia, aliquam esse voluptatem dicta provident nulla? Officia dolor recusandae quibusdam!</p>
+                <button class="more-products">Show Watches</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container red-bg d-flex justify-content-center align-items-center">
+        <div>
+            <h3>Free Shipping Method</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt, sit.</p>
+        </div>
+        <div>
+            <h3>Secure Payment System</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, amet!</p>
+        </div>
+        <div>
+            <h3>Secure Payment System</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia, ullam?</p>
+        </div>
+    </div>
+
+    <!-- Another Section -->
+    <div class="container d-flex justify-content-between align-items-center">
+        <div class="row">
+            <div class="col-md-3">
+                <img src="images/logo.png" alt=""><br><br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non omnis aperiam quod possimus repellendus deserunt?</p>
+            </div>
+            <div class="col-md-3">
+                <h2>Quick Links</h2>
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Offers & Discounts</a></li>
+                    <li><a href="#">Get Coupon</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <h2>New Products</h2>
+                <ul>
+                    <li><a href="#">Woman Cloth</a></li>
+                    <li><a href="#">Fashion Accessories</a></li>
+                    <li><a href="#">Man Accessories</a></li>
+                    <li><a href="#">Rubber made Toys</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <h2>Support</h2>
+                <ul>
+                    <li><a href="#">Frequently Asked Questions</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Report a Payment Issue</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <small>&copy; Made by Fuad | All rights reserved | 2020</small>
+    </footer>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+
+</html>
